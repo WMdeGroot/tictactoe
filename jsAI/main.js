@@ -29,7 +29,7 @@ playerText.innerHTML += "Player = " + currentPlayer;
 let winnerText = document.querySelector(".winnertext");
 
 document.querySelector(".back").onclick = function () {
-    location.href = "/index.html";
+    location.href = "index.html";
 };
 
 

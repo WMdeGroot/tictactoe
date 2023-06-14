@@ -76,5 +76,5 @@ function printLeaderFunc(){
 }
 
 document.querySelector(".back").onclick = function () {
-    location.href = "/index.html"; //verwijst je naar indexhtml als je op back drukt
+    location.href = "index.html"; //verwijst je naar indexhtml als je op back drukt
 };
