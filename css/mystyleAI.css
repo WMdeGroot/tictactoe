@@ -1,0 +1,72 @@
+.container{
+    width: 480px;
+    height: 474px;
+    background-color: black;
+    border: 2px solid white;
+    padding: 8px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body {
+    background-image: url(/background/color2.jpg);
+  }
+
+.currentplayer{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 200px;
+    color: white;
+}
+
+.winnertext{
+    text-align: center;
+    color: white;
+}
+
+article{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(245, 184, 0);
+    font-size: 80pt;
+    text-align: center;
+}
+
+article:hover{
+    background-color: rgb(189, 151, 35);
+}
+
+.row1{
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.row2{
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+.row3{
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+
+button{
+    float: left;
+    margin: auto;
+    background-image: linear-gradient(yellow, red);
+    width: 200px;
+    height: 50px;
+}
+
+button:hover{
+    background-image: linear-gradient(rgb(185, 10, 10), rgb(199, 199, 3))
+}
+
+button:active{
+    background-image: linear-gradient(rgb(51, 1, 1), rgb(67, 67, 1))
+}
